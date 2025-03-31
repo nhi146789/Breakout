@@ -24,7 +24,7 @@ public class EntityFactory {
         paddle.add(sizeComponent);
 
         SpeedComponent speedComponent = new SpeedComponent();
-        speedComponent.speed = 200;
+        speedComponent.speed = 500;
         paddle.add(speedComponent);
 
         paddle.add(new RenderComponent());
@@ -48,7 +48,7 @@ public class EntityFactory {
         ball.add(sizeComponent);
 
         SpeedComponent speedComponent = new SpeedComponent();
-        speedComponent.speed = 200;
+        speedComponent.speed = 400;
         ball.add(speedComponent);
 
         DirectionComponent directionComponent = new DirectionComponent();
